@@ -1,0 +1,15 @@
+{
+  "repository": "https://github.com/sofiacostap/TRDP_fisheyeGS",
+  "commit": "39c4af1ee031507a79c7b0426c94f1f0e3d9ce6e",
+  "files": [
+    "README.md",
+    "docs/selection-study-plan.md",
+    "docs/partner-handoff.md",
+    "scripts/create_uniform_pose_manifest.py",
+    "scripts/create_xy_angle_manifest.py",
+    "scripts/run_selection_study.sh",
+    "scripts/export_baseline_manifests.py",
+    "manifests/sparse/chairs_uniform_pose_12_v1.json",
+    "manifests/sparse/globe_uniform_pose_12_v1.json"
+  ]
+}

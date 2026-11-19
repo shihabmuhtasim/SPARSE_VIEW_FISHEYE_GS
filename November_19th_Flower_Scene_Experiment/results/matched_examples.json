@@ -1,0 +1,833 @@
+{
+  "rule": "Each method supplies its best, median and worst test filename by PSNR; compare all three methods on that identical filename. Display only, not used for tuning.",
+  "cases": [
+    {
+      "count": 12,
+      "reference_method": "pca_angle",
+      "rank": "best",
+      "image": "1.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.87480354309082,
+          "SSIM": 0.5103837251663208,
+          "LPIPS": 0.4035787284374237
+        },
+        "angular_fps": {
+          "PSNR": 16.277450561523438,
+          "SSIM": 0.3861066401004791,
+          "LPIPS": 0.469045490026474
+        },
+        "coverage": {
+          "PSNR": 17.819931030273438,
+          "SSIM": 0.4899185299873352,
+          "LPIPS": 0.40019023418426514
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "pca_angle",
+      "rank": "median",
+      "image": "120.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.760103225708008,
+          "SSIM": 0.441058874130249,
+          "LPIPS": 0.4109196960926056
+        },
+        "angular_fps": {
+          "PSNR": 17.530376434326172,
+          "SSIM": 0.4793241322040558,
+          "LPIPS": 0.39444252848625183
+        },
+        "coverage": {
+          "PSNR": 17.922889709472656,
+          "SSIM": 0.4798227846622467,
+          "LPIPS": 0.38787952065467834
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "pca_angle",
+      "rank": "worst",
+      "image": "51.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 13.67426872253418,
+          "SSIM": 0.3503347933292389,
+          "LPIPS": 0.5393797159194946
+        },
+        "angular_fps": {
+          "PSNR": 14.515682220458984,
+          "SSIM": 0.4013593792915344,
+          "LPIPS": 0.4946673512458801
+        },
+        "coverage": {
+          "PSNR": 15.082948684692383,
+          "SSIM": 0.43059012293815613,
+          "LPIPS": 0.46769002079963684
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "angular_fps",
+      "rank": "best",
+      "image": "128.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.150747299194336,
+          "SSIM": 0.5124445557594299,
+          "LPIPS": 0.4146912395954132
+        },
+        "angular_fps": {
+          "PSNR": 18.969451904296875,
+          "SSIM": 0.5376567840576172,
+          "LPIPS": 0.398696631193161
+        },
+        "coverage": {
+          "PSNR": 19.099742889404297,
+          "SSIM": 0.5727257132530212,
+          "LPIPS": 0.3717355728149414
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "angular_fps",
+      "rank": "median",
+      "image": "1.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.87480354309082,
+          "SSIM": 0.5103837251663208,
+          "LPIPS": 0.4035787284374237
+        },
+        "angular_fps": {
+          "PSNR": 16.277450561523438,
+          "SSIM": 0.3861066401004791,
+          "LPIPS": 0.469045490026474
+        },
+        "coverage": {
+          "PSNR": 17.819931030273438,
+          "SSIM": 0.4899185299873352,
+          "LPIPS": 0.40019023418426514
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "angular_fps",
+      "rank": "worst",
+      "image": "135.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 13.886333465576172,
+          "SSIM": 0.3400932550430298,
+          "LPIPS": 0.5241101384162903
+        },
+        "angular_fps": {
+          "PSNR": 13.970666885375977,
+          "SSIM": 0.3704296350479126,
+          "LPIPS": 0.5096040964126587
+        },
+        "coverage": {
+          "PSNR": 14.469430923461914,
+          "SSIM": 0.3605307340621948,
+          "LPIPS": 0.513079047203064
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "coverage",
+      "rank": "best",
+      "image": "66.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.3116397857666,
+          "SSIM": 0.509721040725708,
+          "LPIPS": 0.40967684984207153
+        },
+        "angular_fps": {
+          "PSNR": 16.2954044342041,
+          "SSIM": 0.47309696674346924,
+          "LPIPS": 0.4320462644100189
+        },
+        "coverage": {
+          "PSNR": 20.906965255737305,
+          "SSIM": 0.6680623292922974,
+          "LPIPS": 0.2909753918647766
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "coverage",
+      "rank": "median",
+      "image": "120.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.760103225708008,
+          "SSIM": 0.441058874130249,
+          "LPIPS": 0.4109196960926056
+        },
+        "angular_fps": {
+          "PSNR": 17.530376434326172,
+          "SSIM": 0.4793241322040558,
+          "LPIPS": 0.39444252848625183
+        },
+        "coverage": {
+          "PSNR": 17.922889709472656,
+          "SSIM": 0.4798227846622467,
+          "LPIPS": 0.38787952065467834
+        }
+      }
+    },
+    {
+      "count": 12,
+      "reference_method": "coverage",
+      "rank": "worst",
+      "image": "135.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 13.886333465576172,
+          "SSIM": 0.3400932550430298,
+          "LPIPS": 0.5241101384162903
+        },
+        "angular_fps": {
+          "PSNR": 13.970666885375977,
+          "SSIM": 0.3704296350479126,
+          "LPIPS": 0.5096040964126587
+        },
+        "coverage": {
+          "PSNR": 14.469430923461914,
+          "SSIM": 0.3605307340621948,
+          "LPIPS": 0.513079047203064
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "pca_angle",
+      "rank": "best",
+      "image": "66.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 21.111263275146484,
+          "SSIM": 0.6808721423149109,
+          "LPIPS": 0.28043439984321594
+        },
+        "angular_fps": {
+          "PSNR": 18.495019912719727,
+          "SSIM": 0.5939086079597473,
+          "LPIPS": 0.35289186239242554
+        },
+        "coverage": {
+          "PSNR": 21.180742263793945,
+          "SSIM": 0.6923795342445374,
+          "LPIPS": 0.28567197918891907
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "pca_angle",
+      "rank": "median",
+      "image": "113.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.068864822387695,
+          "SSIM": 0.46852272748947144,
+          "LPIPS": 0.4276607036590576
+        },
+        "angular_fps": {
+          "PSNR": 20.239011764526367,
+          "SSIM": 0.6246454119682312,
+          "LPIPS": 0.32539284229278564
+        },
+        "coverage": {
+          "PSNR": 21.884286880493164,
+          "SSIM": 0.6692233085632324,
+          "LPIPS": 0.28719019889831543
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "pca_angle",
+      "rank": "worst",
+      "image": "15.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 15.18725872039795,
+          "SSIM": 0.39068788290023804,
+          "LPIPS": 0.5260095596313477
+        },
+        "angular_fps": {
+          "PSNR": 17.895626068115234,
+          "SSIM": 0.5158077478408813,
+          "LPIPS": 0.4305623769760132
+        },
+        "coverage": {
+          "PSNR": 18.219213485717773,
+          "SSIM": 0.5541170239448547,
+          "LPIPS": 0.4170681834220886
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "angular_fps",
+      "rank": "best",
+      "image": "22.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 21.079479217529297,
+          "SSIM": 0.600622832775116,
+          "LPIPS": 0.31178897619247437
+        },
+        "angular_fps": {
+          "PSNR": 21.074153900146484,
+          "SSIM": 0.5935870409011841,
+          "LPIPS": 0.3272291421890259
+        },
+        "coverage": {
+          "PSNR": 20.652217864990234,
+          "SSIM": 0.5914071202278137,
+          "LPIPS": 0.3310915529727936
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "angular_fps",
+      "rank": "median",
+      "image": "106.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.55328369140625,
+          "SSIM": 0.49187707901000977,
+          "LPIPS": 0.40573346614837646
+        },
+        "angular_fps": {
+          "PSNR": 19.164627075195312,
+          "SSIM": 0.5419325232505798,
+          "LPIPS": 0.3767506182193756
+        },
+        "coverage": {
+          "PSNR": 17.01350975036621,
+          "SSIM": 0.4432810842990875,
+          "LPIPS": 0.44210121035575867
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "angular_fps",
+      "rank": "worst",
+      "image": "51.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 15.829395294189453,
+          "SSIM": 0.4825083315372467,
+          "LPIPS": 0.42597058415412903
+        },
+        "angular_fps": {
+          "PSNR": 15.71347427368164,
+          "SSIM": 0.4629230201244354,
+          "LPIPS": 0.44218015670776367
+        },
+        "coverage": {
+          "PSNR": 16.58611488342285,
+          "SSIM": 0.4923962354660034,
+          "LPIPS": 0.42994028329849243
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "coverage",
+      "rank": "best",
+      "image": "113.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.068864822387695,
+          "SSIM": 0.46852272748947144,
+          "LPIPS": 0.4276607036590576
+        },
+        "angular_fps": {
+          "PSNR": 20.239011764526367,
+          "SSIM": 0.6246454119682312,
+          "LPIPS": 0.32539284229278564
+        },
+        "coverage": {
+          "PSNR": 21.884286880493164,
+          "SSIM": 0.6692233085632324,
+          "LPIPS": 0.28719019889831543
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "coverage",
+      "rank": "median",
+      "image": "73.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.42654800415039,
+          "SSIM": 0.4758588671684265,
+          "LPIPS": 0.42601439356803894
+        },
+        "angular_fps": {
+          "PSNR": 19.1302547454834,
+          "SSIM": 0.5275267958641052,
+          "LPIPS": 0.3730796277523041
+        },
+        "coverage": {
+          "PSNR": 19.511898040771484,
+          "SSIM": 0.5859953761100769,
+          "LPIPS": 0.347899466753006
+        }
+      }
+    },
+    {
+      "count": 24,
+      "reference_method": "coverage",
+      "rank": "worst",
+      "image": "135.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 16.16301155090332,
+          "SSIM": 0.4641149938106537,
+          "LPIPS": 0.44468653202056885
+        },
+        "angular_fps": {
+          "PSNR": 15.991521835327148,
+          "SSIM": 0.46229714155197144,
+          "LPIPS": 0.4490394592285156
+        },
+        "coverage": {
+          "PSNR": 15.83462142944336,
+          "SSIM": 0.4281042516231537,
+          "LPIPS": 0.47127479314804077
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "pca_angle",
+      "rank": "best",
+      "image": "66.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 23.21780776977539,
+          "SSIM": 0.745124876499176,
+          "LPIPS": 0.24589765071868896
+        },
+        "angular_fps": {
+          "PSNR": 20.494897842407227,
+          "SSIM": 0.682618260383606,
+          "LPIPS": 0.3043305277824402
+        },
+        "coverage": {
+          "PSNR": 22.079959869384766,
+          "SSIM": 0.7236551642417908,
+          "LPIPS": 0.2687366306781769
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "pca_angle",
+      "rank": "median",
+      "image": "95.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 20.032062530517578,
+          "SSIM": 0.6260939836502075,
+          "LPIPS": 0.35121890902519226
+        },
+        "angular_fps": {
+          "PSNR": 21.491182327270508,
+          "SSIM": 0.6909371614456177,
+          "LPIPS": 0.2909966707229614
+        },
+        "coverage": {
+          "PSNR": 20.136455535888672,
+          "SSIM": 0.6531408429145813,
+          "LPIPS": 0.3158220648765564
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "pca_angle",
+      "rank": "worst",
+      "image": "51.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.10327911376953,
+          "SSIM": 0.5363543033599854,
+          "LPIPS": 0.396018922328949
+        },
+        "angular_fps": {
+          "PSNR": 17.534690856933594,
+          "SSIM": 0.5595857501029968,
+          "LPIPS": 0.3733900189399719
+        },
+        "coverage": {
+          "PSNR": 17.73517417907715,
+          "SSIM": 0.5923051238059998,
+          "LPIPS": 0.3476145565509796
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "angular_fps",
+      "rank": "best",
+      "image": "59.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 21.599538803100586,
+          "SSIM": 0.6981576085090637,
+          "LPIPS": 0.2640083432197571
+        },
+        "angular_fps": {
+          "PSNR": 22.918468475341797,
+          "SSIM": 0.7121895551681519,
+          "LPIPS": 0.2611808776855469
+        },
+        "coverage": {
+          "PSNR": 23.6363582611084,
+          "SSIM": 0.7573878169059753,
+          "LPIPS": 0.23042194545269012
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "angular_fps",
+      "rank": "median",
+      "image": "1.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 19.34347915649414,
+          "SSIM": 0.5873010158538818,
+          "LPIPS": 0.33891117572784424
+        },
+        "angular_fps": {
+          "PSNR": 20.95073890686035,
+          "SSIM": 0.6316947937011719,
+          "LPIPS": 0.31249600648880005
+        },
+        "coverage": {
+          "PSNR": 22.14029312133789,
+          "SSIM": 0.6700281500816345,
+          "LPIPS": 0.2761085331439972
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "angular_fps",
+      "rank": "worst",
+      "image": "51.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.10327911376953,
+          "SSIM": 0.5363543033599854,
+          "LPIPS": 0.396018922328949
+        },
+        "angular_fps": {
+          "PSNR": 17.534690856933594,
+          "SSIM": 0.5595857501029968,
+          "LPIPS": 0.3733900189399719
+        },
+        "coverage": {
+          "PSNR": 17.73517417907715,
+          "SSIM": 0.5923051238059998,
+          "LPIPS": 0.3476145565509796
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "coverage",
+      "rank": "best",
+      "image": "59.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 21.599538803100586,
+          "SSIM": 0.6981576085090637,
+          "LPIPS": 0.2640083432197571
+        },
+        "angular_fps": {
+          "PSNR": 22.918468475341797,
+          "SSIM": 0.7121895551681519,
+          "LPIPS": 0.2611808776855469
+        },
+        "coverage": {
+          "PSNR": 23.6363582611084,
+          "SSIM": 0.7573878169059753,
+          "LPIPS": 0.23042194545269012
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "coverage",
+      "rank": "median",
+      "image": "88.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 19.604400634765625,
+          "SSIM": 0.5773043632507324,
+          "LPIPS": 0.39074021577835083
+        },
+        "angular_fps": {
+          "PSNR": 20.919727325439453,
+          "SSIM": 0.6622685194015503,
+          "LPIPS": 0.32170748710632324
+        },
+        "coverage": {
+          "PSNR": 21.18262481689453,
+          "SSIM": 0.6758926510810852,
+          "LPIPS": 0.3187131881713867
+        }
+      }
+    },
+    {
+      "count": 48,
+      "reference_method": "coverage",
+      "rank": "worst",
+      "image": "80.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 18.32667350769043,
+          "SSIM": 0.4778255820274353,
+          "LPIPS": 0.42821216583251953
+        },
+        "angular_fps": {
+          "PSNR": 18.637414932250977,
+          "SSIM": 0.5014810562133789,
+          "LPIPS": 0.4117310047149658
+        },
+        "coverage": {
+          "PSNR": 16.982707977294922,
+          "SSIM": 0.4688679277896881,
+          "LPIPS": 0.43035271763801575
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "pca_angle",
+      "rank": "best",
+      "image": "59.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 24.17435073852539,
+          "SSIM": 0.7850608825683594,
+          "LPIPS": 0.21915636956691742
+        },
+        "angular_fps": {
+          "PSNR": 24.17496109008789,
+          "SSIM": 0.768932580947876,
+          "LPIPS": 0.22754114866256714
+        },
+        "coverage": {
+          "PSNR": 24.49803352355957,
+          "SSIM": 0.7888802289962769,
+          "LPIPS": 0.21447104215621948
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "pca_angle",
+      "rank": "median",
+      "image": "88.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 21.271114349365234,
+          "SSIM": 0.6701227426528931,
+          "LPIPS": 0.32801899313926697
+        },
+        "angular_fps": {
+          "PSNR": 21.571063995361328,
+          "SSIM": 0.6939021348953247,
+          "LPIPS": 0.30722999572753906
+        },
+        "coverage": {
+          "PSNR": 21.983440399169922,
+          "SSIM": 0.7038719058036804,
+          "LPIPS": 0.30217668414115906
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "pca_angle",
+      "rank": "worst",
+      "image": "51.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.642534255981445,
+          "SSIM": 0.6094498634338379,
+          "LPIPS": 0.35115301609039307
+        },
+        "angular_fps": {
+          "PSNR": 18.419464111328125,
+          "SSIM": 0.6352196931838989,
+          "LPIPS": 0.32820266485214233
+        },
+        "coverage": {
+          "PSNR": 18.520816802978516,
+          "SSIM": 0.632548451423645,
+          "LPIPS": 0.327252596616745
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "angular_fps",
+      "rank": "best",
+      "image": "59.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 24.17435073852539,
+          "SSIM": 0.7850608825683594,
+          "LPIPS": 0.21915636956691742
+        },
+        "angular_fps": {
+          "PSNR": 24.17496109008789,
+          "SSIM": 0.768932580947876,
+          "LPIPS": 0.22754114866256714
+        },
+        "coverage": {
+          "PSNR": 24.49803352355957,
+          "SSIM": 0.7888802289962769,
+          "LPIPS": 0.21447104215621948
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "angular_fps",
+      "rank": "median",
+      "image": "142.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 21.589500427246094,
+          "SSIM": 0.6361031532287598,
+          "LPIPS": 0.2827311158180237
+        },
+        "angular_fps": {
+          "PSNR": 21.758270263671875,
+          "SSIM": 0.6420688629150391,
+          "LPIPS": 0.2803007960319519
+        },
+        "coverage": {
+          "PSNR": 21.326255798339844,
+          "SSIM": 0.6291496157646179,
+          "LPIPS": 0.2897244989871979
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "angular_fps",
+      "rank": "worst",
+      "image": "51.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.642534255981445,
+          "SSIM": 0.6094498634338379,
+          "LPIPS": 0.35115301609039307
+        },
+        "angular_fps": {
+          "PSNR": 18.419464111328125,
+          "SSIM": 0.6352196931838989,
+          "LPIPS": 0.32820266485214233
+        },
+        "coverage": {
+          "PSNR": 18.520816802978516,
+          "SSIM": 0.632548451423645,
+          "LPIPS": 0.327252596616745
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "coverage",
+      "rank": "best",
+      "image": "59.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 24.17435073852539,
+          "SSIM": 0.7850608825683594,
+          "LPIPS": 0.21915636956691742
+        },
+        "angular_fps": {
+          "PSNR": 24.17496109008789,
+          "SSIM": 0.768932580947876,
+          "LPIPS": 0.22754114866256714
+        },
+        "coverage": {
+          "PSNR": 24.49803352355957,
+          "SSIM": 0.7888802289962769,
+          "LPIPS": 0.21447104215621948
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "coverage",
+      "rank": "median",
+      "image": "95.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 21.50445556640625,
+          "SSIM": 0.7066618800163269,
+          "LPIPS": 0.2971622943878174
+        },
+        "angular_fps": {
+          "PSNR": 22.13031768798828,
+          "SSIM": 0.7242186665534973,
+          "LPIPS": 0.2808348834514618
+        },
+        "coverage": {
+          "PSNR": 22.000579833984375,
+          "SSIM": 0.7215223908424377,
+          "LPIPS": 0.28074347972869873
+        }
+      }
+    },
+    {
+      "count": 96,
+      "reference_method": "coverage",
+      "rank": "worst",
+      "image": "51.jpg",
+      "metrics": {
+        "pca_angle": {
+          "PSNR": 17.642534255981445,
+          "SSIM": 0.6094498634338379,
+          "LPIPS": 0.35115301609039307
+        },
+        "angular_fps": {
+          "PSNR": 18.419464111328125,
+          "SSIM": 0.6352196931838989,
+          "LPIPS": 0.32820266485214233
+        },
+        "coverage": {
+          "PSNR": 18.520816802978516,
+          "SSIM": 0.632548451423645,
+          "LPIPS": 0.327252596616745
+        }
+      }
+    }
+  ]
+}

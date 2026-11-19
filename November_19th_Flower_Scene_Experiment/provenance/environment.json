@@ -1,0 +1,9 @@
+{
+  "torch": "2.8.0+cu126",
+  "cuda": "12.6",
+  "numpy": "2.1.2",
+  "gpu": "NVIDIA GeForce RTX 4060",
+  "gpu_kernel_test": true,
+  "lpips_preloaded": true,
+  "source": "Frozen prior DirectFisheye bundle with explicit seed/manifest compatibility and filename-sorted final rendering; see patch"
+}

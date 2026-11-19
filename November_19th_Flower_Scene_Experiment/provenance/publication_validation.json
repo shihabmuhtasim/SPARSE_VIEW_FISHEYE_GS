@@ -1,0 +1,18 @@
+{
+  "state": "passed",
+  "all_12_generated_manifests_equal_executed_manifests": true,
+  "all_12_training_argument_lists_equal_except_paths": true,
+  "source_and_image_preflight_passed": true,
+  "unit_tests": 5,
+  "numpy_version": "2.1.2",
+  "new_gpu_training_started": false,
+  "real_cuda_lpips_loader_preflight_passed": true,
+  "all_12_loader_splits_passed": true,
+  "portable_postprocess_real_runs": [
+    "pca_angle_12",
+    "angular_fps_12",
+    "coverage_12"
+  ],
+  "postprocess_per_test_csv_equal_original": true,
+  "matched_same_photo_panels_generated": 9
+}

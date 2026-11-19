@@ -1,0 +1,10 @@
+{
+  "state": "passed",
+  "manifest_count": 12,
+  "tests": 19,
+  "candidates": 130,
+  "points": 54865,
+  "eligible_points": 51695,
+  "historical_fps10_and_coverage10_sequences_reproduced": true,
+  "pca_exact_partner_script_used_and_repeated": true
+}

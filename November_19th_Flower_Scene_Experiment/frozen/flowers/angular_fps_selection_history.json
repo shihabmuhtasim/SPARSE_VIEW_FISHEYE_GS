@@ -1,0 +1,674 @@
+[
+  {
+    "step": 1,
+    "index": 11,
+    "nearest_selected_angle_at_addition": null,
+    "max_remaining_nearest_angle": 141.2317709584283,
+    "image": "110.jpg"
+  },
+  {
+    "step": 2,
+    "index": 122,
+    "nearest_selected_angle_at_addition": 141.2317709584283,
+    "max_remaining_nearest_angle": 72.36903135723226,
+    "image": "91.jpg"
+  },
+  {
+    "step": 3,
+    "index": 3,
+    "nearest_selected_angle_at_addition": 72.36903135723226,
+    "max_remaining_nearest_angle": 46.21621919710307,
+    "image": "102.jpg"
+  },
+  {
+    "step": 4,
+    "index": 87,
+    "nearest_selected_angle_at_addition": 46.21621919710307,
+    "max_remaining_nearest_angle": 40.737781259673376,
+    "image": "55.jpg"
+  },
+  {
+    "step": 5,
+    "index": 23,
+    "nearest_selected_angle_at_addition": 40.737781259673376,
+    "max_remaining_nearest_angle": 34.5052026497252,
+    "image": "123.jpg"
+  },
+  {
+    "step": 6,
+    "index": 128,
+    "nearest_selected_angle_at_addition": 34.5052026497252,
+    "max_remaining_nearest_angle": 26.366472090059656,
+    "image": "98.jpg"
+  },
+  {
+    "step": 7,
+    "index": 92,
+    "nearest_selected_angle_at_addition": 26.366472090059656,
+    "max_remaining_nearest_angle": 25.55400646542922,
+    "image": "60.jpg"
+  },
+  {
+    "step": 8,
+    "index": 17,
+    "nearest_selected_angle_at_addition": 25.55400646542922,
+    "max_remaining_nearest_angle": 24.095122283714165,
+    "image": "117.jpg"
+  },
+  {
+    "step": 9,
+    "index": 7,
+    "nearest_selected_angle_at_addition": 24.095122283714165,
+    "max_remaining_nearest_angle": 22.525986815074596,
+    "image": "107.jpg"
+  },
+  {
+    "step": 10,
+    "index": 26,
+    "nearest_selected_angle_at_addition": 22.525986815074596,
+    "max_remaining_nearest_angle": 22.305083894018743,
+    "image": "126.jpg"
+  },
+  {
+    "step": 11,
+    "index": 56,
+    "nearest_selected_angle_at_addition": 22.305083894018743,
+    "max_remaining_nearest_angle": 22.195558371799223,
+    "image": "23.jpg"
+  },
+  {
+    "step": 12,
+    "index": 0,
+    "nearest_selected_angle_at_addition": 22.195558371799223,
+    "max_remaining_nearest_angle": 21.594369907101562,
+    "image": "10.jpg"
+  },
+  {
+    "step": 13,
+    "index": 6,
+    "nearest_selected_angle_at_addition": 21.594369907101562,
+    "max_remaining_nearest_angle": 15.534909540948746,
+    "image": "105.jpg"
+  },
+  {
+    "step": 14,
+    "index": 55,
+    "nearest_selected_angle_at_addition": 15.534909540948746,
+    "max_remaining_nearest_angle": 15.340176208368934,
+    "image": "21.jpg"
+  },
+  {
+    "step": 15,
+    "index": 40,
+    "nearest_selected_angle_at_addition": 15.340176208368934,
+    "max_remaining_nearest_angle": 15.063741966626836,
+    "image": "140.jpg"
+  },
+  {
+    "step": 16,
+    "index": 126,
+    "nearest_selected_angle_at_addition": 15.063741966626836,
+    "max_remaining_nearest_angle": 14.787600301041635,
+    "image": "96.jpg"
+  },
+  {
+    "step": 17,
+    "index": 43,
+    "nearest_selected_angle_at_addition": 14.787600301041635,
+    "max_remaining_nearest_angle": 14.414662836941403,
+    "image": "144.jpg"
+  },
+  {
+    "step": 18,
+    "index": 66,
+    "nearest_selected_angle_at_addition": 14.414662836941403,
+    "max_remaining_nearest_angle": 14.344847755385809,
+    "image": "33.jpg"
+  },
+  {
+    "step": 19,
+    "index": 71,
+    "nearest_selected_angle_at_addition": 14.344847755385809,
+    "max_remaining_nearest_angle": 14.149811135504828,
+    "image": "39.jpg"
+  },
+  {
+    "step": 20,
+    "index": 1,
+    "nearest_selected_angle_at_addition": 14.149811135504828,
+    "max_remaining_nearest_angle": 12.85378769248929,
+    "image": "100.jpg"
+  },
+  {
+    "step": 21,
+    "index": 81,
+    "nearest_selected_angle_at_addition": 12.85378769248929,
+    "max_remaining_nearest_angle": 12.801280529427222,
+    "image": "49.jpg"
+  },
+  {
+    "step": 22,
+    "index": 69,
+    "nearest_selected_angle_at_addition": 12.801280529427222,
+    "max_remaining_nearest_angle": 12.567192723085427,
+    "image": "36.jpg"
+  },
+  {
+    "step": 23,
+    "index": 82,
+    "nearest_selected_angle_at_addition": 12.567192723085427,
+    "max_remaining_nearest_angle": 11.653248986090558,
+    "image": "5.jpg"
+  },
+  {
+    "step": 24,
+    "index": 50,
+    "nearest_selected_angle_at_addition": 11.653248986090558,
+    "max_remaining_nearest_angle": 11.530763249506837,
+    "image": "17.jpg"
+  },
+  {
+    "step": 25,
+    "index": 104,
+    "nearest_selected_angle_at_addition": 11.530763249506837,
+    "max_remaining_nearest_angle": 11.092013291585953,
+    "image": "72.jpg"
+  },
+  {
+    "step": 26,
+    "index": 125,
+    "nearest_selected_angle_at_addition": 11.092013291585953,
+    "max_remaining_nearest_angle": 11.03842431884394,
+    "image": "94.jpg"
+  },
+  {
+    "step": 27,
+    "index": 47,
+    "nearest_selected_angle_at_addition": 11.03842431884394,
+    "max_remaining_nearest_angle": 10.924005463019578,
+    "image": "148.jpg"
+  },
+  {
+    "step": 28,
+    "index": 113,
+    "nearest_selected_angle_at_addition": 10.924005463019578,
+    "max_remaining_nearest_angle": 10.838179761856834,
+    "image": "82.jpg"
+  },
+  {
+    "step": 29,
+    "index": 99,
+    "nearest_selected_angle_at_addition": 10.838179761856834,
+    "max_remaining_nearest_angle": 10.268545287602436,
+    "image": "68.jpg"
+  },
+  {
+    "step": 30,
+    "index": 22,
+    "nearest_selected_angle_at_addition": 10.268545287602436,
+    "max_remaining_nearest_angle": 9.728232025149312,
+    "image": "122.jpg"
+  },
+  {
+    "step": 31,
+    "index": 110,
+    "nearest_selected_angle_at_addition": 9.728232025149312,
+    "max_remaining_nearest_angle": 9.66113864298577,
+    "image": "79.jpg"
+  },
+  {
+    "step": 32,
+    "index": 90,
+    "nearest_selected_angle_at_addition": 9.66113864298577,
+    "max_remaining_nearest_angle": 9.613776779940451,
+    "image": "58.jpg"
+  },
+  {
+    "step": 33,
+    "index": 2,
+    "nearest_selected_angle_at_addition": 9.613776779940451,
+    "max_remaining_nearest_angle": 9.58690540010043,
+    "image": "101.jpg"
+  },
+  {
+    "step": 34,
+    "index": 38,
+    "nearest_selected_angle_at_addition": 9.58690540010043,
+    "max_remaining_nearest_angle": 9.463978880331156,
+    "image": "139.jpg"
+  },
+  {
+    "step": 35,
+    "index": 41,
+    "nearest_selected_angle_at_addition": 9.463978880331156,
+    "max_remaining_nearest_angle": 8.746274016829739,
+    "image": "141.jpg"
+  },
+  {
+    "step": 36,
+    "index": 101,
+    "nearest_selected_angle_at_addition": 8.746274016829739,
+    "max_remaining_nearest_angle": 8.676793785946854,
+    "image": "7.jpg"
+  },
+  {
+    "step": 37,
+    "index": 33,
+    "nearest_selected_angle_at_addition": 8.676793785946854,
+    "max_remaining_nearest_angle": 8.649548096297162,
+    "image": "133.jpg"
+  },
+  {
+    "step": 38,
+    "index": 93,
+    "nearest_selected_angle_at_addition": 8.649548096297162,
+    "max_remaining_nearest_angle": 8.037461243902172,
+    "image": "61.jpg"
+  },
+  {
+    "step": 39,
+    "index": 109,
+    "nearest_selected_angle_at_addition": 8.037461243902172,
+    "max_remaining_nearest_angle": 7.934377442260565,
+    "image": "78.jpg"
+  },
+  {
+    "step": 40,
+    "index": 98,
+    "nearest_selected_angle_at_addition": 7.934377442260565,
+    "max_remaining_nearest_angle": 7.758659662225569,
+    "image": "67.jpg"
+  },
+  {
+    "step": 41,
+    "index": 54,
+    "nearest_selected_angle_at_addition": 7.758659662225569,
+    "max_remaining_nearest_angle": 7.6767751261275,
+    "image": "20.jpg"
+  },
+  {
+    "step": 42,
+    "index": 107,
+    "nearest_selected_angle_at_addition": 7.6767751261275,
+    "max_remaining_nearest_angle": 7.380499615736458,
+    "image": "76.jpg"
+  },
+  {
+    "step": 43,
+    "index": 8,
+    "nearest_selected_angle_at_addition": 7.380499615736458,
+    "max_remaining_nearest_angle": 7.349712663567848,
+    "image": "108.jpg"
+  },
+  {
+    "step": 44,
+    "index": 118,
+    "nearest_selected_angle_at_addition": 7.349712663567848,
+    "max_remaining_nearest_angle": 7.332257722552174,
+    "image": "87.jpg"
+  },
+  {
+    "step": 45,
+    "index": 100,
+    "nearest_selected_angle_at_addition": 7.332257722552174,
+    "max_remaining_nearest_angle": 7.224250793813166,
+    "image": "69.jpg"
+  },
+  {
+    "step": 46,
+    "index": 9,
+    "nearest_selected_angle_at_addition": 7.224250793813166,
+    "max_remaining_nearest_angle": 7.194481130467864,
+    "image": "109.jpg"
+  },
+  {
+    "step": 47,
+    "index": 44,
+    "nearest_selected_angle_at_addition": 7.194481130467864,
+    "max_remaining_nearest_angle": 6.518944589062419,
+    "image": "145.jpg"
+  },
+  {
+    "step": 48,
+    "index": 108,
+    "nearest_selected_angle_at_addition": 6.518944589062419,
+    "max_remaining_nearest_angle": 6.498651064558522,
+    "image": "77.jpg"
+  },
+  {
+    "step": 49,
+    "index": 19,
+    "nearest_selected_angle_at_addition": 6.498651064558522,
+    "max_remaining_nearest_angle": 6.483266819709298,
+    "image": "119.jpg"
+  },
+  {
+    "step": 50,
+    "index": 32,
+    "nearest_selected_angle_at_addition": 6.483266819709298,
+    "max_remaining_nearest_angle": 6.45014412177648,
+    "image": "132.jpg"
+  },
+  {
+    "step": 51,
+    "index": 103,
+    "nearest_selected_angle_at_addition": 6.45014412177648,
+    "max_remaining_nearest_angle": 6.447105745241316,
+    "image": "71.jpg"
+  },
+  {
+    "step": 52,
+    "index": 25,
+    "nearest_selected_angle_at_addition": 6.447105745241316,
+    "max_remaining_nearest_angle": 6.439055841594248,
+    "image": "125.jpg"
+  },
+  {
+    "step": 53,
+    "index": 88,
+    "nearest_selected_angle_at_addition": 6.439055841594248,
+    "max_remaining_nearest_angle": 6.399955912956429,
+    "image": "56.jpg"
+  },
+  {
+    "step": 54,
+    "index": 24,
+    "nearest_selected_angle_at_addition": 6.399955912956429,
+    "max_remaining_nearest_angle": 6.380877042092645,
+    "image": "124.jpg"
+  },
+  {
+    "step": 55,
+    "index": 123,
+    "nearest_selected_angle_at_addition": 6.380877042092645,
+    "max_remaining_nearest_angle": 6.365332692143977,
+    "image": "92.jpg"
+  },
+  {
+    "step": 56,
+    "index": 129,
+    "nearest_selected_angle_at_addition": 6.365332692143977,
+    "max_remaining_nearest_angle": 6.17955568052662,
+    "image": "99.jpg"
+  },
+  {
+    "step": 57,
+    "index": 20,
+    "nearest_selected_angle_at_addition": 6.17955568052662,
+    "max_remaining_nearest_angle": 6.082292920468395,
+    "image": "12.jpg"
+  },
+  {
+    "step": 58,
+    "index": 111,
+    "nearest_selected_angle_at_addition": 6.082292920468395,
+    "max_remaining_nearest_angle": 5.92830569441714,
+    "image": "8.jpg"
+  },
+  {
+    "step": 59,
+    "index": 42,
+    "nearest_selected_angle_at_addition": 5.92830569441714,
+    "max_remaining_nearest_angle": 5.817116636722191,
+    "image": "143.jpg"
+  },
+  {
+    "step": 60,
+    "index": 78,
+    "nearest_selected_angle_at_addition": 5.817116636722191,
+    "max_remaining_nearest_angle": 5.7205003107614845,
+    "image": "46.jpg"
+  },
+  {
+    "step": 61,
+    "index": 65,
+    "nearest_selected_angle_at_addition": 5.7205003107614845,
+    "max_remaining_nearest_angle": 5.660553017810513,
+    "image": "32.jpg"
+  },
+  {
+    "step": 62,
+    "index": 27,
+    "nearest_selected_angle_at_addition": 5.660553017810513,
+    "max_remaining_nearest_angle": 5.549487378632995,
+    "image": "127.jpg"
+  },
+  {
+    "step": 63,
+    "index": 37,
+    "nearest_selected_angle_at_addition": 5.549487378632995,
+    "max_remaining_nearest_angle": 5.484369933688924,
+    "image": "138.jpg"
+  },
+  {
+    "step": 64,
+    "index": 46,
+    "nearest_selected_angle_at_addition": 5.484369933688924,
+    "max_remaining_nearest_angle": 5.3914063764818785,
+    "image": "147.jpg"
+  },
+  {
+    "step": 65,
+    "index": 63,
+    "nearest_selected_angle_at_addition": 5.3914063764818785,
+    "max_remaining_nearest_angle": 5.32553441110011,
+    "image": "30.jpg"
+  },
+  {
+    "step": 66,
+    "index": 119,
+    "nearest_selected_angle_at_addition": 5.32553441110011,
+    "max_remaining_nearest_angle": 5.310615632639476,
+    "image": "89.jpg"
+  },
+  {
+    "step": 67,
+    "index": 30,
+    "nearest_selected_angle_at_addition": 5.310615632639476,
+    "max_remaining_nearest_angle": 5.2667798069345695,
+    "image": "130.jpg"
+  },
+  {
+    "step": 68,
+    "index": 84,
+    "nearest_selected_angle_at_addition": 5.2667798069345695,
+    "max_remaining_nearest_angle": 5.121339830309491,
+    "image": "52.jpg"
+  },
+  {
+    "step": 69,
+    "index": 76,
+    "nearest_selected_angle_at_addition": 5.121339830309491,
+    "max_remaining_nearest_angle": 5.103790081804682,
+    "image": "43.jpg"
+  },
+  {
+    "step": 70,
+    "index": 21,
+    "nearest_selected_angle_at_addition": 5.103790081804682,
+    "max_remaining_nearest_angle": 5.046694373516844,
+    "image": "121.jpg"
+  },
+  {
+    "step": 71,
+    "index": 105,
+    "nearest_selected_angle_at_addition": 5.046694373516844,
+    "max_remaining_nearest_angle": 5.016387189766433,
+    "image": "74.jpg"
+  },
+  {
+    "step": 72,
+    "index": 115,
+    "nearest_selected_angle_at_addition": 5.016387189766433,
+    "max_remaining_nearest_angle": 4.99626293509462,
+    "image": "84.jpg"
+  },
+  {
+    "step": 73,
+    "index": 114,
+    "nearest_selected_angle_at_addition": 4.99626293509462,
+    "max_remaining_nearest_angle": 4.963567220085933,
+    "image": "83.jpg"
+  },
+  {
+    "step": 74,
+    "index": 60,
+    "nearest_selected_angle_at_addition": 4.963567220085933,
+    "max_remaining_nearest_angle": 4.943454984319627,
+    "image": "27.jpg"
+  },
+  {
+    "step": 75,
+    "index": 68,
+    "nearest_selected_angle_at_addition": 4.943454984319627,
+    "max_remaining_nearest_angle": 4.855874807725565,
+    "image": "35.jpg"
+  },
+  {
+    "step": 76,
+    "index": 36,
+    "nearest_selected_angle_at_addition": 4.855874807725565,
+    "max_remaining_nearest_angle": 4.554670567155579,
+    "image": "137.jpg"
+  },
+  {
+    "step": 77,
+    "index": 49,
+    "nearest_selected_angle_at_addition": 4.554670567155579,
+    "max_remaining_nearest_angle": 4.498594491899327,
+    "image": "16.jpg"
+  },
+  {
+    "step": 78,
+    "index": 18,
+    "nearest_selected_angle_at_addition": 4.498594491899327,
+    "max_remaining_nearest_angle": 4.431612278598665,
+    "image": "118.jpg"
+  },
+  {
+    "step": 79,
+    "index": 39,
+    "nearest_selected_angle_at_addition": 4.431612278598665,
+    "max_remaining_nearest_angle": 4.378043928168472,
+    "image": "14.jpg"
+  },
+  {
+    "step": 80,
+    "index": 62,
+    "nearest_selected_angle_at_addition": 4.378043928168472,
+    "max_remaining_nearest_angle": 4.212680509746809,
+    "image": "29.jpg"
+  },
+  {
+    "step": 81,
+    "index": 12,
+    "nearest_selected_angle_at_addition": 4.212680509746809,
+    "max_remaining_nearest_angle": 4.169805985332875,
+    "image": "111.jpg"
+  },
+  {
+    "step": 82,
+    "index": 51,
+    "nearest_selected_angle_at_addition": 4.169805985332875,
+    "max_remaining_nearest_angle": 4.085136925161847,
+    "image": "18.jpg"
+  },
+  {
+    "step": 83,
+    "index": 106,
+    "nearest_selected_angle_at_addition": 4.085136925161847,
+    "max_remaining_nearest_angle": 4.014606400416309,
+    "image": "75.jpg"
+  },
+  {
+    "step": 84,
+    "index": 97,
+    "nearest_selected_angle_at_addition": 4.014606400416309,
+    "max_remaining_nearest_angle": 3.8987246310101074,
+    "image": "65.jpg"
+  },
+  {
+    "step": 85,
+    "index": 70,
+    "nearest_selected_angle_at_addition": 3.8987246310101074,
+    "max_remaining_nearest_angle": 3.840316122359688,
+    "image": "38.jpg"
+  },
+  {
+    "step": 86,
+    "index": 86,
+    "nearest_selected_angle_at_addition": 3.840316122359688,
+    "max_remaining_nearest_angle": 3.8299801879979705,
+    "image": "54.jpg"
+  },
+  {
+    "step": 87,
+    "index": 15,
+    "nearest_selected_angle_at_addition": 3.8299801879979705,
+    "max_remaining_nearest_angle": 3.724057291620295,
+    "image": "115.jpg"
+  },
+  {
+    "step": 88,
+    "index": 35,
+    "nearest_selected_angle_at_addition": 3.724057291620295,
+    "max_remaining_nearest_angle": 3.546016441460203,
+    "image": "136.jpg"
+  },
+  {
+    "step": 89,
+    "index": 29,
+    "nearest_selected_angle_at_addition": 3.546016441460203,
+    "max_remaining_nearest_angle": 3.5283051643039647,
+    "image": "13.jpg"
+  },
+  {
+    "step": 90,
+    "index": 52,
+    "nearest_selected_angle_at_addition": 3.5283051643039647,
+    "max_remaining_nearest_angle": 3.4486690949688543,
+    "image": "19.jpg"
+  },
+  {
+    "step": 91,
+    "index": 48,
+    "nearest_selected_angle_at_addition": 3.4486690949688543,
+    "max_remaining_nearest_angle": 3.444923966232212,
+    "image": "149.jpg"
+  },
+  {
+    "step": 92,
+    "index": 5,
+    "nearest_selected_angle_at_addition": 3.444923966232212,
+    "max_remaining_nearest_angle": 3.423266990099461,
+    "image": "104.jpg"
+  },
+  {
+    "step": 93,
+    "index": 45,
+    "nearest_selected_angle_at_addition": 3.423266990099461,
+    "max_remaining_nearest_angle": 3.3206424236699577,
+    "image": "146.jpg"
+  },
+  {
+    "step": 94,
+    "index": 80,
+    "nearest_selected_angle_at_addition": 3.3206424236699577,
+    "max_remaining_nearest_angle": 3.2936199975750253,
+    "image": "48.jpg"
+  },
+  {
+    "step": 95,
+    "index": 74,
+    "nearest_selected_angle_at_addition": 3.2936199975750253,
+    "max_remaining_nearest_angle": 3.155688731782755,
+    "image": "41.jpg"
+  },
+  {
+    "step": 96,
+    "index": 61,
+    "nearest_selected_angle_at_addition": 3.155688731782755,
+    "max_remaining_nearest_angle": 2.9645050035412925,
+    "image": "28.jpg"
+  }
+]

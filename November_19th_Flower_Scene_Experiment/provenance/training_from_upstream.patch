@@ -1,0 +1,123 @@
+--- a/render.py
++++ b/render.py
+@@ -98,6 +98,10 @@
+ 
+     makedirs(render_path, exist_ok=True)
+     makedirs(gts_path, exist_ok=True)
++    import json
++    views = sorted(views, key=lambda v: v.image_name)
++    with open(os.path.join(model_path, name, "ours_{}".format(iteration), "view_order.json"), "w") as f:
++        json.dump([v.image_name for v in views], f, indent=2)
+ 
+     if appearance_mapping is not None:
+         Ws_dict, Qs_dict = appearance_mapping
+@@ -146,6 +150,10 @@
+ 
+     makedirs(render_path, exist_ok=True)
+     makedirs(gts_path, exist_ok=True)
++    import json
++    views = sorted(views, key=lambda v: v.image_name)
++    with open(os.path.join(model_path, name, "ours_{}".format(iteration), "view_order.json"), "w") as f:
++        json.dump([v.image_name for v in views], f, indent=2)
+ 
+     if appearance_mapping is not None:
+         Ws_dict, Qs_dict = appearance_mapping
+--- a/scene/dataset_readers.py
++++ b/scene/dataset_readers.py
+@@ -117,7 +117,17 @@
+ 
+         image_path = os.path.join(images_folder, os.path.basename(extr.name))
+         image_name = extr.name
+-        image = Image.open(image_path)
++        fixed_path = os.environ.get("DFGS_FIXED_SPLIT")
++        if fixed_path:
++            import json
++            with open(fixed_path) as split_file:
++                fixed_ids = json.load(split_file)
++            fixed_ids["train_names"] = fixed_ids.get("train_names", fixed_ids.get("train_images"))
++            fixed_ids["test_names"] = fixed_ids.get("test_names", fixed_ids.get("test_images"))
++            load_pixels = image_name in set(fixed_ids["train_names"] + fixed_ids["test_names"])
++        else:
++            load_pixels = True
++        image = Image.open(image_path) if load_pixels else None
+ 
+         cam_info = CameraInfo(uid=uid, R=R, T=T, FovY=FovY, FovX=FovX, image=image,
+                               image_path=image_path, image_name=image_name, width=width, height=height,
+@@ -174,7 +184,20 @@
+         train_cam_infos = cam_infos
+         test_cam_infos = []
+ 
+-    nerf_normalization = getNerfppNorm(train_cam_infos)
++    original_train_cam_infos = train_cam_infos
++    split_path = os.environ.get("DFGS_FIXED_SPLIT")
++    if split_path:
++        import json
++        fixed = json.load(open(split_path))
++        fixed["train_names"] = fixed.get("train_names", fixed.get("train_images"))
++        fixed["test_names"] = fixed.get("test_names", fixed.get("test_images"))
++        assert set(fixed["test_names"]) == {c.image_name for c in test_cam_infos}
++        lookup = {c.image_name: c for c in train_cam_infos}
++        assert set(fixed["train_names"]) <= set(lookup)
++        assert not set(fixed["train_names"]) & set(fixed["test_names"])
++        train_cam_infos = [lookup[n] for n in fixed["train_names"]]
++        print(f"FIXED SPLIT: {len(train_cam_infos)} selected training / {len(test_cam_infos)} unchanged test cameras")
++    nerf_normalization = getNerfppNorm(original_train_cam_infos)
+ 
+     ply_path = os.path.join(path, "sparse/0/points3D.ply")
+     bin_path = os.path.join(path, "sparse/0/points3D.bin")
+--- a/train_eval.py
++++ b/train_eval.py
+@@ -37,6 +37,11 @@
+         args.skip_render = True
+         args.skip_metrics = True
+ 
++    import os
++    if args.seed < 0:
++        raise ValueError("seed must be nonnegative")
++    if args.split_manifest:
++        os.environ["DFGS_FIXED_SPLIT"] = os.path.abspath(args.split_manifest)
+     print("Optimizing " + args.model_path)
+ 
+     dataset = lp.extract(args)
+--- a/training_cli.py
++++ b/training_cli.py
+@@ -83,4 +83,6 @@
+     parser.add_argument("--checkpoint_iterations", nargs="+", type=int, default=[])
+     parser.add_argument("--start_checkpoint", type=str, default=None)
+ 
++    parser.add_argument("--seed", type=int, default=0)
++    parser.add_argument("--split_manifest", type=str, default=None)
+     parser.add_argument("--bs", type=int, default=2, help="Batch size for training")
+--- a/training_core.py
++++ b/training_core.py
+@@ -689,7 +689,7 @@
+ 
+     train_args.save_iterations.append(train_args.iterations)
+ 
+-    safe_state(train_args.quiet)
++    safe_state(train_args.quiet, seed=train_args.seed)
+     if not train_args.disable_viewer:
+         network_gui.init(train_args.ip, train_args.port)
+ 
+--- a/utils/general_utils.py
++++ b/utils/general_utils.py
+@@ -109,7 +109,7 @@
+     L = R @ L
+     return L
+ 
+-def safe_state(silent):
++def safe_state(silent, seed=0):
+     old_f = sys.stdout
+     class F:
+         def __init__(self, silent):
+@@ -127,7 +127,7 @@
+ 
+     sys.stdout = F(silent)
+ 
+-    random.seed(0)
+-    np.random.seed(0)
+-    torch.manual_seed(0)
++    random.seed(seed)
++    np.random.seed(seed)
++    torch.manual_seed(seed)
+     torch.cuda.set_device(torch.device("cuda:0"))

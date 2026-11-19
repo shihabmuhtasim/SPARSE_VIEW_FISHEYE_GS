@@ -1,0 +1,27 @@
+{
+  "ranking": "ascending final test PSNR; median is 10th of19; filename tie break",
+  "used_for_training_or_model_selection": false,
+  "examples": {
+    "worst": {
+      "test_image": "51.jpg",
+      "render_file": "00012.png",
+      "PSNR": 13.67426872253418,
+      "SSIM": 0.3503347933292389,
+      "LPIPS": 0.5393797159194946
+    },
+    "median": {
+      "test_image": "120.jpg",
+      "render_file": "00003.png",
+      "PSNR": 17.760103225708008,
+      "SSIM": 0.441058874130249,
+      "LPIPS": 0.4109196960926056
+    },
+    "best": {
+      "test_image": "1.jpg",
+      "render_file": "00000.png",
+      "PSNR": 18.87480354309082,
+      "SSIM": 0.5103837251663208,
+      "LPIPS": 0.4035787284374237
+    }
+  }
+}

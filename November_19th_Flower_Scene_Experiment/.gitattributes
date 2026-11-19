@@ -1,0 +1,7 @@
+* text=auto eol=lf
+*.png -text
+*.npz -text
+# Keep exported CSV bytes, patch checksums and original license notices intact.
+*.csv -text whitespace=cr-at-eol
+provenance/*.patch -text -whitespace
+licenses/* -whitespace

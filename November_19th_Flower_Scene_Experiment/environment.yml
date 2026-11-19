@@ -1,0 +1,19 @@
+name: DFGS-Nov19
+channels:
+  - defaults
+dependencies:
+  - python=3.12.11
+  - pip=25.2
+  - setuptools=78.1.1
+  - wheel=0.45.1
+  - pip:
+      - --extra-index-url https://download.pytorch.org/whl/cu126
+      - torch==2.8.0+cu126
+      - torchvision==0.23.0+cu126
+      - numpy==2.1.2
+      - pillow==11.0.0
+      - plyfile==1.1.2
+      - tqdm==4.67.1
+      - opencv-python==4.12.0.88
+      - matplotlib==3.10.8
+      - tensorboard==2.21.0

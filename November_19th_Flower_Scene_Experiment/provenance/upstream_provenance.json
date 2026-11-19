@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/Metaverse-AI-Lab-THU/DirectFisheye-GS",
+  "commit": "db9b3a25bff79a59f02ce90f5bd235cb59c03aaa",
+  "patch": "training_from_upstream.patch",
+  "modified_files": [
+    "render.py",
+    "scene/dataset_readers.py",
+    "train_eval.py",
+    "training_cli.py",
+    "training_core.py",
+    "utils/general_utils.py"
+  ],
+  "sha256": "80aec7cee030478d9078db117004efd9eeac37dd1470cab2572494b8ca1d1636"
+}
