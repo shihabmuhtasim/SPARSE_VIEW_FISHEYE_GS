@@ -1,5 +1,5 @@
 {
-  "asset_url": "https://github.com/shihabmuhtasim/SPARSE_VIEW_FISHEYE_GS/releases/download/flowers-2026-11-19/flowers_frozen_colmap_v1.tar.gz",
+  "asset_url": null,
   "sha256": "ad57ea84cbd4e0ee85c03e534bae76e90f36c0ce935b781377446536cce22c50",
   "bytes": 17187164,
   "files_sha256": {
@@ -10,5 +10,6 @@
     "camera_associations_overlap_skip9.txt": "c41922e365d3ba783a6400f2b148f03260f0f5db24b8fd71e8e8199d781ace39"
   },
   "contains": "Original COLMAP model, cached initialization PLY and camera association table; no photographs or trained weights",
-  "dataset_archive_url": "https://drive.google.com/file/d/1VhnpMUIKEak4TBpKY4H8vMJJe--FM2k5/view"
+  "dataset_archive_url": "https://drive.google.com/file/d/1VhnpMUIKEak4TBpKY4H8vMJJe--FM2k5/view",
+  "distribution": "Private bundle from experiment owner; public distribution requires explicit approval"
 }

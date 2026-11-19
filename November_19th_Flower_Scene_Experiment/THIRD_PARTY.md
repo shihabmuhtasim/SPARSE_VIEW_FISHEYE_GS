@@ -13,7 +13,7 @@
   Our static COLMAP observation-and-direction objective is custom code, not the published COVER implementation or a reproduction of its reported results.
 - **Dataset:** original [FishEyeNeRF archive](https://drive.google.com/file/d/1VhnpMUIKEak4TBpKY4H8vMJJe--FM2k5/view).
   Photographs are obtained from their original source and are not republished in this repository.
-  The accompanying Flowers geometry asset is the exact reconstruction and caches used by this study; it is not a trained model.
+  The privately shared Flowers geometry bundle is the exact reconstruction and caches used by this study; it is not a trained model and is not publicly distributed here.
 
 There is no blanket license here that overrides upstream software or dataset terms.
 Retain the original notices and citations when reusing those components.

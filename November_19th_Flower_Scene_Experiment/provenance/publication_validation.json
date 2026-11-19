@@ -14,5 +14,6 @@
     "coverage_12"
   ],
   "postprocess_per_test_csv_equal_original": true,
-  "matched_same_photo_panels_generated": 9
+  "matched_same_photo_panels_generated": 9,
+  "private_geometry_bundle_install_and_member_checksums_passed": true
 }

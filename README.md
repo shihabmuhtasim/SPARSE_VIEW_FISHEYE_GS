@@ -12,4 +12,5 @@ Start in [November 19th Flower Scene Experiment](November_19th_Flower_Scene_Expe
 - For Chairs or Globe, follow the [teammate handoff](November_19th_Flower_Scene_Experiment/TEAM_HANDOFF.md).
 
 The [results summary](November_19th_Flower_Scene_Experiment/results/README.md) contains all 12 test results.
-The exact Flowers COLMAP inputs are provided separately in the [Flowers release](https://github.com/shihabmuhtasim/SPARSE_VIEW_FISHEYE_GS/releases/tag/flowers-2026-11-19).
+The exact Flowers COLMAP input bundle is shared privately by the experiment owner;
+the [setup instructions](November_19th_Flower_Scene_Experiment/README.md#obtain-the-flowers-inputs) explain how to install and verify it.

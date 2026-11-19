@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Download and verify the exact Flowers COLMAP inputs, without downloading RGB."""
+"""Install and verify the exact Flowers COLMAP inputs from an approved bundle."""
 from pathlib import Path
 import argparse
 import hashlib
@@ -12,8 +12,11 @@ import urllib.request
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--scene-dir", type=Path, required=True)
+    parser.add_argument("--archive", type=Path, help="Privately shared flowers_frozen_colmap_v1.tar.gz")
     args = parser.parse_args()
     pin = json.loads((Path(__file__).resolve().parent.parent / "provenance/flowers_geometry_asset.json").read_text())
+    if args.archive is None and not pin.get("asset_url"):
+        parser.error("The geometry bundle is distributed privately. Obtain it from the experiment owner and pass --archive /path/to/flowers_frozen_colmap_v1.tar.gz")
     target = args.scene_dir.expanduser().resolve() / "sparse/0"
     target.mkdir(parents=True, exist_ok=True)
     for name, expected in pin["files_sha256"].items():
@@ -21,8 +24,11 @@ def main():
         if existing.exists() and hashlib.sha256(existing.read_bytes()).hexdigest() != expected:
             raise ValueError("Existing different geometry will not be overwritten: " + str(existing))
     with tempfile.TemporaryDirectory(prefix="flowers-geometry-") as directory:
-        archive = Path(directory) / "geometry.tar.gz"
-        urllib.request.urlretrieve(pin["asset_url"], archive)
+        if args.archive:
+            archive = args.archive.expanduser().resolve()
+        else:
+            archive = Path(directory) / "geometry.tar.gz"
+            urllib.request.urlretrieve(pin["asset_url"], archive)
         if hashlib.sha256(archive.read_bytes()).hexdigest() != pin["sha256"]:
             raise ValueError("Geometry archive checksum mismatch")
         with tarfile.open(archive) as tar:

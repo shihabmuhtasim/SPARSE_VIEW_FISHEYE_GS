@@ -70,15 +70,18 @@ Keep `provenance/environment_packages.txt` as the full inventory of the environm
 1. Obtain the [original FishEyeNeRF archive](https://drive.google.com/file/d/1VhnpMUIKEak4TBpKY4H8vMJJe--FM2k5/view).
 2. Extract the **149 original JPGs from `FishEyeNeRF/flowers/images/`** into `$FLOWERS_DATA/images/`.
    Do not use the smaller `flowers/train/rgb/` copies. Do not rename, resize or undistort the files.
-3. Download the exact reconstruction used here:
+3. Obtain `flowers_frozen_colmap_v1.tar.gz` privately from Shihab, then install the exact reconstruction used here:
 
 ```bash
-python code/fetch_flowers_geometry.py --scene-dir "$FLOWERS_DATA"
+python code/fetch_flowers_geometry.py --scene-dir "$FLOWERS_DATA" \
+  --archive /path/to/shared/flowers_frozen_colmap_v1.tar.gz
 ```
 
-The geometry download is about 16.4 MiB. It contains the three COLMAP binaries, the cached initialization PLY
+The separate geometry bundle is about 16.4 MiB. It contains the three COLMAP binaries, the cached initialization PLY
 and the camera-association table. It contains no photographs or trained model weights.
 The helper verifies the archive and each file, and refuses to overwrite different existing geometry.
+The raw geometry bundle is not publicly hosted with the code. You need this privately shared input to reproduce the exact Flowers geometry;
+rerunning COLMAP on the source images can produce different geometry and different measured results.
 
 Expected layout:
 
